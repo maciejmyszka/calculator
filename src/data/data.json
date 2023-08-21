@@ -1,0 +1,216 @@
+{
+  "offer": [
+    {
+      "id": 0,
+      "name": "Internet",
+      "prices": [
+        {
+          "id": 1,
+          "year": "2023",
+          "price": "39"
+        },
+        {
+          "id": 2,
+          "year": "2024",
+          "price": "49"
+        },
+        {
+          "id": 3,
+          "year": "2025",
+          "price": "59"
+        }
+      ],
+      "packages": [
+        {
+          "id": 4,
+          "name": "Internet + telewizja + dekoder 4k",
+          "prices": [
+            {
+              "id": 1,
+              "year": "2023",
+              "regularPrice": "117",
+              "price": "79"
+            },
+            {
+              "id": 2,
+              "year": "2024",
+              "regularPrice": "127",
+              "price": "89"
+            },
+            {
+              "id": 3,
+              "year": "2025",
+              "regularPrice": "147",
+              "price": "99"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Internet + abonament telefoniczny",
+          "prices": [
+            {
+              "id": 1,
+              "year": "2023",
+              "regularPrice": "88",
+              "price": "64"
+            },
+            {
+              "id": 2,
+              "year": "2024",
+              "regularPrice": "98",
+              "price": "64"
+            },
+            {
+              "id": 3,
+              "year": "2025",
+              "regularPrice": "118",
+              "price": "64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Telewizja",
+      "prices": [
+        {
+          "id": 1,
+          "year": "2023",
+          "price": "49"
+        },
+        {
+          "id": 2,
+          "year": "2024",
+          "price": "49"
+        },
+        {
+          "id": 3,
+          "year": "2025",
+          "price": "59"
+        }
+      ],
+      "packages": [
+        {
+          "id": 4,
+          "name": "Internet + telewizja + dekoder 4k",
+          "prices": [
+            {
+              "id": 1,
+              "year": "2023",
+              "regularPrice": "117",
+              "price": "79"
+            },
+            {
+              "id": 2,
+              "year": "2024",
+              "regularPrice": "127",
+              "price": "89"
+            },
+            {
+              "id": 3,
+              "year": "2025",
+              "regularPrice": "147",
+              "price": "99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Abonament telefoniczny",
+      "prices": [
+        {
+          "id": 1,
+          "year": "2023",
+          "price": "29"
+        },
+        {
+          "id": 2,
+          "year": "2024",
+          "price": "29"
+        },
+        {
+          "id": 3,
+          "year": "2025",
+          "price": "29"
+        }
+      ],
+      "packages": [
+        {
+          "id": 5,
+          "name": "Internet + abonament telefoniczny",
+          "prices": [
+            {
+              "id": 1,
+              "year": "2023",
+              "regularPrice": "88",
+              "price": "64"
+            },
+            {
+              "id": 2,
+              "year": "2024",
+              "regularPrice": "98",
+              "price": "64"
+            },
+            {
+              "id": 3,
+              "year": "2025",
+              "regularPrice": "118",
+              "price": "64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dekoder 4K",
+      "prices": [
+        {
+          "id": 1,
+          "year": "2023",
+          "price": "29"
+        },
+        {
+          "id": 2,
+          "year": "2024",
+          "price": "29"
+        },
+        {
+          "id": 3,
+          "year": "2025",
+          "price": "29"
+        }
+      ],
+      "packages": [
+        {
+          "id": 4,
+          "name": "Internet + telewizja + dekoder 4k",
+          "prices": [
+            {
+              "id": 1,
+              "year": "2023",
+              "regularPrice": "117",
+              "price": "79"
+            },
+            {
+              "id": 2,
+              "year": "2024",
+              "regularPrice": "127",
+              "price": "89"
+            },
+            {
+              "id": 3,
+              "year": "2025",
+              "regularPrice": "147",
+              "price": "99"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
