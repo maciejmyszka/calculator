@@ -5,8 +5,13 @@ import { SingleElementContainer } from '../../containers/SingleElementContainer'
 import { SelectionContainer } from '../../containers/SelectionContainer';
 
 export const SelectYear = () => {
-  const { selectedBase, selectedYear, setSelectedYear } =
+  const { selectedBase, selectedYear, setSelectedYear, setSelectedItem } =
     useCalculatorContext();
+
+  const changeYear = (year: string) => {
+    setSelectedYear(year);
+    setSelectedItem(null);
+  };
 
   if (!selectedBase) return null;
   return (
@@ -17,7 +22,7 @@ export const SelectYear = () => {
         {selectedBase.prices.map(({ year, id }) => (
           <SingleElementContainer
             key={id}
-            onClick={() => setSelectedYear(year)}
+            onClick={() => changeYear(year)}
             backgroundColor={year === selectedYear ? '#EFF3F3' : '#fff'}
           >
             <Text textAlign='center'>{year}</Text>

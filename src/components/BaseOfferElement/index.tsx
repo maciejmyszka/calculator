@@ -33,6 +33,7 @@ export const BaseOfferElement = () => {
           ? '#EFF3F3'
           : '#fff'
       }
+      pointerEvents={isInBasket ? 'none' : 'auto'}
     >
       <Text textAlign='center'>{selectedBase.name}</Text>
 
